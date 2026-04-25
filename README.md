@@ -184,7 +184,7 @@ bun --version
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/prathamesh-penshanwar/AlphaMind.git
+git clone https://github.com/PRATHAM777P/AlphaMind.git
 cd AlphaMind
 
 # 2. Install dependencies
