@@ -1,0 +1,23 @@
+# AlphaMind - Python Requirements
+# Author: Prathamesh Penshanwar
+#
+# NOTE: AlphaMind is primarily a TypeScript/Bun project.
+# Python dependencies are only required if you use:
+#   - OpenBB Platform (openbb-api server)
+#   - Custom Python-based skill scripts
+#
+# Install with: pip install -r requirements.txt
+
+# ─── OpenBB Platform (optional) ──────────────────────────────────────
+# Required to run the local OpenBB REST API server for free market data.
+# Run with: openbb-api --host 0.0.0.0 --port 8700
+openbb>=4.3.0
+
+# ─── OpenBB MCP Bridge (optional) ────────────────────────────────────
+# Enables AlphaMind to route finance tool calls to a local openbb-mcp server.
+# See: FREE_DATA_API_URL in env.example
+openbb-mcp>=0.1.0
+
+# ─── Utilities ────────────────────────────────────────────────────────
+python-dotenv>=1.0.0      # Load .env files in Python scripts
+requests>=2.32.0          # HTTP client for any custom scripts
