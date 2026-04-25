@@ -1,0 +1,126 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AlphaMind — Autonomous AI Agent for Deep Financial Research</title>
+
+  <!-- Dark background -->
+  <rect width="1200" height="340" fill="#080F1E"/>
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="#4A9ECC" stroke-width="0.5">
+    <line x1="0" y1="68" x2="1200" y2="68"/>
+    <line x1="0" y1="136" x2="1200" y2="136"/>
+    <line x1="0" y1="204" x2="1200" y2="204"/>
+    <line x1="0" y1="272" x2="1200" y2="272"/>
+    <line x1="120" y1="0" x2="120" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="660" y1="0" x2="660" y2="340"/>
+    <line x1="840" y1="0" x2="840" y2="340"/>
+    <line x1="1020" y1="0" x2="1020" y2="340"/>
+  </g>
+
+  <!-- Right-side network visualization -->
+  <!-- Nodes -->
+  <circle cx="900" cy="80"  r="5" fill="#26A69A" opacity="0.7"/>
+  <circle cx="960" cy="130" r="4" fill="#4A9ECC" opacity="0.6"/>
+  <circle cx="1020" cy="90" r="6" fill="#26A69A" opacity="0.8"/>
+  <circle cx="1080" cy="150" r="4" fill="#5BC8F5" opacity="0.5"/>
+  <circle cx="950"  cy="200" r="5" fill="#4A9ECC" opacity="0.65"/>
+  <circle cx="1030" cy="230" r="4" fill="#26A69A" opacity="0.6"/>
+  <circle cx="1090" cy="200" r="5" fill="#4A9ECC" opacity="0.55"/>
+  <circle cx="870"  cy="170" r="3" fill="#5BC8F5" opacity="0.5"/>
+  <circle cx="1100" cy="270" r="3" fill="#26A69A" opacity="0.4"/>
+  <circle cx="980"  cy="270" r="4" fill="#4A9ECC" opacity="0.45"/>
+  <!-- Connections -->
+  <g stroke="#26A69A" stroke-width="0.8" opacity="0.25">
+    <line x1="900"  y1="80"  x2="960"  y2="130"/>
+    <line x1="960"  y1="130" x2="1020" y2="90"/>
+    <line x1="1020" y1="90"  x2="1080" y2="150"/>
+    <line x1="960"  y1="130" x2="950"  y2="200"/>
+    <line x1="950"  y1="200" x2="1030" y2="230"/>
+    <line x1="1030" y1="230" x2="1090" y2="200"/>
+    <line x1="1080" y1="150" x2="1090" y2="200"/>
+    <line x1="870"  y1="170" x2="950"  y2="200"/>
+    <line x1="870"  y1="170" x2="900"  y2="80"/>
+    <line x1="950"  y1="200" x2="980"  y2="270"/>
+    <line x1="1090" y1="200" x2="1100" y2="270"/>
+  </g>
+
+  <!-- Accent line left -->
+  <rect x="0" y="0" width="4" height="340" fill="#26A69A" opacity="0.6"/>
+
+  <!-- Logo icon (simplified inline version) -->
+  <!-- Outer circle -->
+  <circle cx="92" cy="170" r="58" fill="#0E1525" stroke="#1B4A7A" stroke-width="1.5"/>
+  <circle cx="92" cy="170" r="52" fill="none" stroke="#1B4A7A" stroke-width="0.5" opacity="0.4"/>
+  <!-- Brain arcs -->
+  <path d="M92 142 C76 142 62 152 60 165 C58 174 62 182 68 187 C70 188 72 189 74 190 C74 195 76 200 80 203 C83 205 87 205 92 204"
+        fill="none" stroke="#4A9ECC" stroke-width="2" stroke-linecap="round"/>
+  <path d="M92 142 C108 142 122 152 124 165 C126 174 122 182 116 187 C114 188 112 189 110 190 C110 195 108 200 104 203 C101 205 97 205 92 204"
+        fill="none" stroke="#4A9ECC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="143" x2="92" y2="204" stroke="#1B4A7A" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6"/>
+  <!-- Synapses left -->
+  <circle cx="72"  cy="160" r="2.5" fill="#26A69A"/>
+  <circle cx="67"  cy="174" r="2"   fill="#26A69A" opacity="0.8"/>
+  <circle cx="76"  cy="186" r="2"   fill="#26A69A" opacity="0.7"/>
+  <circle cx="82"  cy="152" r="2"   fill="#5BC8F5" opacity="0.9"/>
+  <!-- Synapses right -->
+  <circle cx="112" cy="160" r="2.5" fill="#26A69A"/>
+  <circle cx="117" cy="174" r="2"   fill="#26A69A" opacity="0.8"/>
+  <circle cx="108" cy="186" r="2"   fill="#26A69A" opacity="0.7"/>
+  <circle cx="102" cy="152" r="2"   fill="#5BC8F5" opacity="0.9"/>
+  <!-- Center node -->
+  <circle cx="92" cy="173" r="4.5" fill="#5BC8F5"/>
+  <!-- Connections to center -->
+  <g stroke="#26A69A" stroke-width="0.7" opacity="0.4">
+    <line x1="82"  y1="152" x2="92" y2="173"/>
+    <line x1="72"  y1="160" x2="92" y2="173"/>
+    <line x1="67"  y1="174" x2="92" y2="173"/>
+    <line x1="76"  y1="186" x2="92" y2="173"/>
+    <line x1="102" y1="152" x2="92" y2="173"/>
+    <line x1="112" y1="160" x2="92" y2="173"/>
+    <line x1="117" y1="174" x2="92" y2="173"/>
+    <line x1="108" y1="186" x2="92" y2="173"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="176" y="150" font-family="Georgia, 'Times New Roman', serif"
+        font-size="82" font-weight="700" fill="#FFFFFF" letter-spacing="-3" opacity="0.96">AlphaMind</text>
+
+  <!-- Alpha symbol accent inside the word (subtle) -->
+  <text x="176" y="155" font-family="Georgia, serif" font-size="82" font-weight="700"
+        fill="none" stroke="#4A9ECC" stroke-width="0.4" letter-spacing="-3" opacity="0.2">AlphaMind</text>
+
+  <!-- Tagline -->
+  <text x="177" y="192" font-family="'Courier New', monospace" font-size="16"
+        fill="#4A9ECC" letter-spacing="3" opacity="0.85">AUTONOMOUS FINANCIAL RESEARCH AGENT</text>
+
+  <!-- Divider line -->
+  <line x1="177" y1="212" x2="720" y2="212" stroke="#1B4A7A" stroke-width="1" opacity="0.6"/>
+
+  <!-- Feature pills -->
+  <g font-family="'Courier New', monospace" font-size="12" fill="#26A69A" opacity="0.75">
+    <rect x="177" y="226" width="110" height="24" rx="4" fill="#0E2030" stroke="#1B4A7A" stroke-width="0.8"/>
+    <text x="232" y="243" text-anchor="middle">Multi-LLM</text>
+
+    <rect x="297" y="226" width="110" height="24" rx="4" fill="#0E2030" stroke="#1B4A7A" stroke-width="0.8"/>
+    <text x="352" y="243" text-anchor="middle">SEC Filings</text>
+
+    <rect x="417" y="226" width="110" height="24" rx="4" fill="#0E2030" stroke="#1B4A7A" stroke-width="0.8"/>
+    <text x="472" y="243" text-anchor="middle">Real-Time Data</text>
+
+    <rect x="537" y="226" width="110" height="24" rx="4" fill="#0E2030" stroke="#1B4A7A" stroke-width="0.8"/>
+    <text x="592" y="243" text-anchor="middle">DCF + Evals</text>
+  </g>
+
+  <!-- Author credit -->
+  <text x="177" y="295" font-family="'Courier New', monospace" font-size="13"
+        fill="#4A9ECC" opacity="0.45" letter-spacing="1">by Prathamesh Penshanwar</text>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="336" width="1200" height="4" fill="#26A69A" opacity="0.3"/>
+
+  <!-- Decorative corner bracket top-right -->
+  <path d="M1160 20 L1180 20 L1180 40" stroke="#26A69A" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <!-- Decorative corner bracket bottom-left -->
+  <path d="M40 320 L20 320 L20 300" stroke="#26A69A" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+</svg>
