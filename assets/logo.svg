@@ -1,1 +1,40 @@
-
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>AlphaMind Logo</title>
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="56" fill="#0E1525" stroke="#1E3A5F" stroke-width="1.5"/>
+  <!-- Subtle inner glow ring -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#1B4A7A" stroke-width="0.6" opacity="0.5"/>
+  <!-- Brain hemispheres — left -->
+  <path d="M60 32 C44 32 30 42 28 55 C26 64 30 72 36 77 C38 78 40 79 42 80 C42 85 44 90 48 93 C51 95 55 95 60 94"
+        fill="none" stroke="#4A9ECC" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Brain hemispheres — right -->
+  <path d="M60 32 C76 32 90 42 92 55 C94 64 90 72 84 77 C82 78 80 79 78 80 C78 85 76 90 72 93 C69 95 65 95 60 94"
+        fill="none" stroke="#4A9ECC" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Center divider -->
+  <line x1="60" y1="33" x2="60" y2="94" stroke="#1B4A7A" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
+  <!-- Neural synapses — left side -->
+  <circle cx="40" cy="52" r="2.5" fill="#26A69A"/>
+  <circle cx="35" cy="66" r="2" fill="#26A69A" opacity="0.8"/>
+  <circle cx="44" cy="78" r="2" fill="#26A69A" opacity="0.7"/>
+  <circle cx="50" cy="44" r="2" fill="#5BC8F5" opacity="0.9"/>
+  <!-- Neural synapses — right side -->
+  <circle cx="80" cy="52" r="2.5" fill="#26A69A"/>
+  <circle cx="85" cy="66" r="2" fill="#26A69A" opacity="0.8"/>
+  <circle cx="76" cy="78" r="2" fill="#26A69A" opacity="0.7"/>
+  <circle cx="70" cy="44" r="2" fill="#5BC8F5" opacity="0.9"/>
+  <!-- Center node -->
+  <circle cx="60" cy="63" r="4" fill="#5BC8F5" opacity="0.95"/>
+  <!-- Synapse connections left -->
+  <line x1="50" y1="44" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="52" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.5"/>
+  <line x1="35" y1="66" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.4"/>
+  <line x1="44" y1="78" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.4"/>
+  <!-- Synapse connections right -->
+  <line x1="70" y1="44" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.5"/>
+  <line x1="80" y1="52" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.5"/>
+  <line x1="85" y1="66" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.4"/>
+  <line x1="76" y1="78" x2="60" y2="63" stroke="#26A69A" stroke-width="0.8" opacity="0.4"/>
+  <!-- Alpha symbol overlay — subtle -->
+  <text x="60" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700"
+        fill="#5BC8F5" opacity="0.15" letter-spacing="-1">α</text>
+</svg>
