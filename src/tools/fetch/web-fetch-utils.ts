@@ -37,10 +37,7 @@ export function htmlToMarkdown(html: string): { text: string; title?: string } {
   let previous: string;
   do {
     previous = text;
-    text = text
-      .replace(/<script\b[\s\S]*?<\/script\b[^>]*>/gi, "")
-      .replace(/<style\b[\s\S]*?<\/style\b[^>]*>/gi, "")
-      .replace(/<noscript\b[\s\S]*?<\/noscript\b[^>]*>/gi, "");
+    text = text.replace(/[<>]/g, "");
   } while (text !== previous);
   text = text.replace(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi, (_, href, body) => {
     const label = normalizeWhitespace(stripTags(body));
