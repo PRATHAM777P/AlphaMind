@@ -13,7 +13,14 @@ function decodeEntities(value: string): string {
 }
 
 function stripTags(value: string): string {
-  return decodeEntities(value.replace(/<[^>]+>/g, ""));
+  let current = value;
+  let previous: string;
+  do {
+    previous = current;
+    current = current.replace(/<[^>]+>/g, "");
+  } while (current !== previous);
+
+  return decodeEntities(current).replace(/[<>]/g, "");
 }
 
 function normalizeWhitespace(value: string): string {
